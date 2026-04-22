@@ -100,57 +100,71 @@
     </section>
     <!--Logo section end-->
 
-    <section class="my-xl-9 my-5" data-cue="fadeIn">
+    <!-- Latest News & Updates start -->
+    <section class="py-xl-9 py-5 bg-white overflow-hidden">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3" data-cue="fadeIn">
-                    <div class="text-center mb-xl-7 mb-5">
-                        <h2 class="h1 mb-3">Latest News & Updates</h2>
-                        <p class="mb-0">At least, not exclusively. Reduced recruiting costs, more efficient and effective communication.</p>
-                    </div>
+            <div class="row align-items-end mb-5 mb-xl-7">
+                <div class="col-lg-7" data-cue="fadeIn">
+                    <span class="section-tag">Market Intelligence</span>
+                    <h2 class="h1 mt-3">Latest News & <span class="text-gradient-gold">Updates</span></h2>
+                    <p class="lead text-muted">Stay ahead with the latest strategic insights and operational developments from our regional mining hubs.</p>
+                </div>
+                <div class="col-lg-5 text-lg-end" data-cue="fadeIn">
+                    <a href="<?= PROOT; ?>news" class="btn btn-navy rounded-pill px-5 py-3 shadow-lg text-uppercase fw-800 letter-spacing-1">
+                        Access Insights Hub <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
                 </div>
             </div>
-            <!-- Blog Card -->
-            <div class="table-responsive-lg">
-                <div class="row g-5 flex-nowrap pb-4 pb-lg-0 me-5 me-lg-0">
-                    <?php foreach ($news as $post): ?>
-                    <article class="col-lg-4 col-md-6 col-12" data-cue="zoomIn">
-                        <figure class="mb-4 zoom-img">
-                            <a href="post?slug=<?= sanitize($post['slug']) ?>">
-                                <img src="<?= PROOT; ?>assets/media/blog/<?= sanitize($post['image'] ?: 'placeholder.jpg') ?>" alt="<?= sanitize($post['title']) ?>" class="img-fluid rounded-3" />
-                            </a>
-                        </figure>
 
-                        <a href="#!" class="badge bg-warning-subtle text-warning-emphasis rounded-pill text-uppercase"><?= sanitize($post['category_name'] ?? 'Uncategorized') ?></a>
-                        <h3 class="my-3 lh-base h4">
-                            <a href="post?slug=<?= sanitize($post['slug']) ?>" class="text-reset"><?= sanitize($post['title']) ?></a>
-                        </h3>
-                        <div class="d-flex align-items-center justify-content-between mb-3 mb-md-0">
-                            <div class="d-flex align-items-center">
-                                <img src="<?= PROOT; ?>assets/media/avatar.png" alt="Avatar" class="avatar avatar-xs rounded-circle" />
-                                <div class="ms-2">
-                                    <a href="#" class="text-reset fs-6"><?= sanitize($post['author_name'] ?? 'Admin') ?></a>
-                                </div>
-                            </div>
-                            <div class="ms-3"><span class="fs-6"><?= pretty_date_notime($post['created_at']) ?></span></div>
-                        </div>
-                    </article>
-                    <?php endforeach; ?>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12" data-cue="zoomIn">
-                    <div class="mt-lg-8 mt-5">
-                        <a href="<?= PROOT; ?>news" class="icon-link icon-link-hover text-dark">
-                            Read more news
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                <path
-                                    fill-rule="evenodd"
-                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                            </svg>
-                        </a>
+            <!-- Blog Grid -->
+            <div class="row g-4 gy-5">
+                <?php if (empty($news)): ?>
+                    <div class="col-12 text-center py-5">
+                        <p class="text-muted">No recent updates available. Check back soon for market news.</p>
                     </div>
-                </div>
+                <?php else: ?>
+                    <?php foreach ($news as $post): ?>
+                        <div class="col-lg-4 col-md-6" data-cue="zoomIn">
+                            <article class="card border-0 h-100 shadow-sm hover-lift rounded-4 overflow-hidden bg-white">
+                                <div class="position-relative overflow-hidden" style="height: 240px;">
+                                    <a href="post?slug=<?= sanitize($post['slug']) ?>">
+                                        <img src="<?= PROOT; ?>assets/media/blog/<?= sanitize($post['image'] ?: 'placeholder.jpg') ?>" alt="<?= sanitize($post['title']) ?>" class="card-img-top h-100 w-100 object-fit-cover transition-all duration-500 hover-scale" />
+                                    </a>
+                                    <?php if ($post['category_name']): ?>
+                                        <div class="position-absolute top-0 start-0 p-3">
+                                            <span class="badge bg-gold-gradient rounded-pill text-uppercase px-3 py-2 small fw-700 letter-spacing-1"><?= sanitize($post['category_name']) ?></span>
+                                        </div>
+                                    <?php endif; ?>
+                                </div>
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center gap-2 mb-3">
+                                        <i class="bi bi-calendar3 text-gold small"></i>
+                                        <span class="small text-muted fw-600"><?= pretty_date_notime($post['created_at']) ?></span>
+                                    </div>
+                                    <h3 class="h4 mb-3 fw-800">
+                                        <a href="post?slug=<?= sanitize($post['slug']) ?>" class="text-navy text-decoration-none hover-gold transition-all"><?= sanitize($post['title']) ?></a>
+                                    </h3>
+                                    <p class="text-muted small mb-4 line-clamp-2">
+                                        <?= mb_strimwidth(strip_tags($post['content'] ?? ''), 0, 100, "...") ?>
+                                    </p>
+                                </div>
+                                <div class="card-footer bg-transparent border-0 p-4 pt-0">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <div class="avatar-xs bg-gold-subtle text-gold rounded-circle d-flex align-items-center justify-content-center">
+                                                <i class="bi bi-person-fill"></i>
+                                            </div>
+                                            <span class="small fw-700 text-navy"><?= sanitize($post['author_name'] ?? 'Admin') ?></span>
+                                        </div>
+                                        <a href="post?slug=<?= sanitize($post['slug']) ?>" class="icon-link icon-link-hover text-gold fw-700 small text-uppercase">
+                                            Read More <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    <?php endforeach; ?>
+                <?php endif; ?>
             </div>
         </div>
     </section>
