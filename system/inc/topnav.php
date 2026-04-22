@@ -1,7 +1,7 @@
     <header>
         <nav class="navbar navbar-expand-lg <?= $navClass; ?>">
             <div class="container px-3">
-                <a class="navbar-brand" href="<?= PROOT; ?>index"><img src="<?= PROOT; ?>assets/media/logo/logo.png" width="60" alt /></a>
+                <a class="navbar-brand" href="<?= PROOT; ?>index" style="filter: none;"><img src="<?= PROOT; ?>assets/media/logo/logo.png" width="60" alt /></a>
                 <button class="navbar-toggler offcanvas-nav-btn" type="button">
                     <i class="bi bi-list"></i>
                 </button>
@@ -34,7 +34,7 @@
                         </ul>
                         <div class="mt-3 mt-lg-0 d-flex align-items-center">
                             <!-- <a href="<?= PROOT; ?>news" class="btn btn-light mx-2">News</a> -->
-                            <a href="<?= PROOT; ?>contact" class="btn btn-warning">Request a quote</a>
+                            <a href="<?= PROOT; ?>contact" class="btn btn-gold">Request a quote</a>
                         </div>
                     </div>
                 </div>

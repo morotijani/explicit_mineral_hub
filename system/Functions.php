@@ -72,7 +72,7 @@
 			$output = number_format($number, 2);
 			$output = shortenMoney($number);
 		
-		return '₵' . $output;
+		return 'Le ' . $output;
 	}
 
 	// Check For Incorrect Input Of Data
@@ -220,7 +220,7 @@
 	        $mail->AddReplyTo($from, $from_name);
 	        $mail->Subject = $subject;
 	        $mail->Body = $body;
-			$mail->setFrom(MAIL_EMAIL, 'M.Enterprise Contact Form');
+			$mail->setFrom(MAIL_EMAIL, 'Explicit Mineral Hub Contact Form');
 	        $mail->AddAddress($to);
 	        $mail->send();
 	        return true;
@@ -242,23 +242,28 @@
 		mail($to_server, $subject, $body, $headers);
 	}
 
-	function sanitizeGhanaPhone($input) {
+	function sanitizeSierraLeonePhone($input) {
 		// Remove any non-numeric characters
 		$digits = preg_replace('/\D/', '', $input);
 
-		// If starts with '+233', remove '+'
-		if (strpos($input, '+233') === 0) {
+		// If starts with '+232', remove '+'
+		if (strpos($input, '+232') === 0) {
 			$digits = substr($digits, 1); // remove the initial +
 		}
 
-		// If starts with '0' and has 10 digits
-		if (preg_match('/^0\d{9}$/', $digits)) {
-			$digits = '233' . substr($digits, 1); // remove leading 0 and add 233
+		// If starts with '0' and has 8 or 9 digits (SL numbers vary)
+		// Usually 0 + 8 digits = 9 digits total
+		if (preg_match('/^0\d{8}$/', $digits)) {
+			$digits = '232' . substr($digits, 1); // remove leading 0 and add 232
 		}
-		// If starts with '233' and has 12 digits (233 + 9 digits)
-		elseif (preg_match('/^233\d{9}$/', $digits)) {
+		// If starts with '232' and has 11 digits (232 + 8 digits)
+		elseif (preg_match('/^232\d{8}$/', $digits)) {
 			// Already formatted, do nothing
 		} else {
+			// fallback for longer numbers if any
+			if (strlen($digits) >= 8 && strlen($digits) <= 12) {
+				return $digits;
+			}
 			return false; // Invalid format
 		}
 

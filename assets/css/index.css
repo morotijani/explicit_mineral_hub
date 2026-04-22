@@ -1,0 +1,217 @@
+/* 
+    Explicit Mineral Hub - Premium Design System
+    Theme: Deep Mining Luxury (Navy & Gold)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --emh-navy: #001C30;
+    --emh-navy-light: #176B87;
+    --emh-gold: #C5A059;
+    --emh-gold-dark: #A67C00;
+    --emh-gold-gradient: linear-gradient(135deg, #C5A059 0%, #A67C00 100%);
+    --emh-navy-gradient: linear-gradient(135deg, #001C30 0%, #004C6D 100%);
+    --emh-glass: rgba(255, 255, 255, 0.05);
+    --emh-glass-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #334155;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    color: var(--emh-navy);
+}
+
+/* Premium Buttons */
+.btn-primary {
+    background: var(--emh-navy-gradient);
+    border: none;
+    padding: 12px 28px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 28, 48, 0.2);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 28, 48, 0.3);
+    background: var(--emh-navy);
+}
+
+.btn-gold {
+    background: var(--emh-gold-gradient);
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(197, 160, 89, 0.4);
+    color: white;
+}
+
+/* Glassmorphism Elements */
+.glass-card {
+    background: var(--emh-glass);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--emh-glass-border);
+    border-radius: 20px;
+}
+
+.navbar-transparent.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* Service Card Redesign */
+.service-card {
+    background: white;
+    border-radius: 24px;
+    padding: 3rem 2rem;
+    height: 100%;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(0, 43, 91, 0.05);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--emh-gold-gradient);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 30px 60px rgba(0, 28, 48, 0.1);
+    border-color: rgba(197, 160, 89, 0.3);
+}
+
+.service-card:hover::before {
+    opacity: 1;
+}
+
+.service-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    background: rgba(197, 160, 89, 0.1);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: var(--emh-gold);
+    font-size: 2rem;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .service-icon-wrapper {
+    background: var(--emh-gold-gradient);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: var(--emh-navy);
+}
+
+.service-card p {
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.service-link {
+    font-weight: 700;
+    color: var(--emh-navy);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.service-link:hover {
+    color: var(--emh-gold);
+}
+
+.service-card-bg {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 120px;
+    opacity: 0.03;
+    z-index: -1;
+    transform: rotate(-15deg);
+}
+
+/* Micro-interactions */
+.zoom-img img {
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Hero Section Enhancement */
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,28,48,0.7) 0%, rgba(0,28,48,0.3) 50%, rgba(0,28,48,0.8) 100%);
+    z-index: 1;
+}
+
+/* Text Animations */
+.text-gradient-gold {
+    background: var(--emh-gold-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Micro-interactions */
+.zoom-img img {
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.zoom-img:hover img {
+    transform: scale(1.08);
+}
+
+/* Spacing & Layout */
+.py-10 {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+
+/* Section Header */
+.section-tag {
+    color: var(--emh-gold);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--emh-gold);
+}

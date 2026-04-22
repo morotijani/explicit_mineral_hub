@@ -33,11 +33,11 @@
                <div class="row">
                   <div class="col-lg-8 offset-lg-2 col-12">
                      <div class="text-center mb-xl-7 mb-5" data-cue="fadeIn">
-                        <small class="text-uppercase ls-md fw-semibold text-primary">Services</small>
-                        <h2 class="my-3">Our industry expertise and solutions</h2>
-                        <p class="mb-0 text-body">
-                           M. Enterprise Ghana Limited provides consultancy services into four (4) thematic areas:. Our expertise extends across:
-                        </p>
+                        <span class="section-tag">Industry Solutions</span>
+                        <h2 class="my-3">Expertise That Powers Nations</h2>
+                         <p class="mb-0 text-body">
+                            Explicit Mineral Hub Limited provides consultancy services into four (4) thematic areas:. Our expertise extends across:
+                         </p>
                      </div>
                   </div>
                </div>
@@ -139,7 +139,7 @@
                                 <span class="ms-2">In-situ Exploration</span>
                            </li>
                         </ul>
-                        <p>M. Enterprise Ghana Limited, holds the expertise to undertake both forms of exploration until the final production.</p>
+                        <p>Explicit Mineral Hub Limited, holds the expertise to undertake both forms of exploration until the final production.</p>
                     </div>
                     <div class="mb-5">
                         <h2 class="mb-2">Mineral Exploration can be subdivided into four sub stages:</h2>
@@ -173,7 +173,7 @@
                                 <span class="ms-2">Mine development, in which a mine and all associated facilities and infrastructure are planned, designed, and constructed.</span>
                             </li>
                         </ul>              
-                        <p>M Enterprise Ghana Limited, holds the expertise to undertake any of the above sub-stage of explorations.</p>
+                        <p>Explicit Mineral Hub Limited, holds the expertise to undertake any of the above sub-stage of explorations.</p>
                     </div>
                 </div>
                 <div class="col-lg-5 offset-lg-2 col-md-6 order-lg-2">
@@ -194,18 +194,19 @@
                     </figure>
                 </div>
                 <div class="col-lg-5 offset-lg-2 col-md-6 mb-4 mb-md-0">
+                    <span class="section-tag">Extraction Mastery</span>
+                    <h2 class="mb-3">Advanced Mining Services</h2>
                     <div class="mb-5">
-                        <h2 class="mb-2">Mining Services</h2>
                         <p class="">Mine Process Advice.</p>
                         <p class="mb-0">A company can embark on grassroots exploration; should it discover a mineral deposit, it then chooses whether to continue with advanced exploration, take on a partner to jointly undertake further exploration, or sell its rights to further exploration to another company. Alternatively, company can eschew grassroots exploration altogether and enter the supply chain by participating in advanced exploration of a deposit discovered by someone else. Or a company can avoid exploration altogether and develop a known but undeveloped deposit. 
                         <br>Or, finally, a company can choose to invest in technological research and development that creates the possibility of making activities at any stage of production more efficient.
-                        <br> M Enterprise Ghana Limited, can offer you very technical advice on mining processes.
+                        <br> Explicit Mineral Hub Limited, can offer you very technical advice on mining processes.
                         </p>
                     </div>
                     <div class="mb-5">
                         <h2 class="mb-2">Mining Processes</h2>
-                        <p class="">When exploration and development is complete MEG, can determine, as accurately as possible, the size of the deposit as well as how to extract and process the Ore efficiently, safely and responsibly.</p>
-                        <p class="mb-0">MEG employs sophisticated equipment that use suction dredges that vacuum up gravel, sluices to separate the gravel from the black sand to extract the Gold Ore.</p>
+                        <p class="">When exploration and development is complete Explicit Mineral Hub, can determine, as accurately as possible, the size of the deposit as well as how to extract and process the Ore efficiently, safely and responsibly.</p>
+                        <p class="mb-0">Explicit Mineral Hub employs sophisticated equipment that use suction dredges that vacuum up gravel, sluices to separate the gravel from the black sand to extract the Gold Ore.</p>
                     </div>
                     <a href="#!" class="icon-link icon-link-hover text-success">
                         View Case Study
@@ -226,19 +227,19 @@
                 <div class="col-md-6 col-lg-5 order-2">
                     <div class="mb-5">
                         <h2 class="mb-2">Gold Trading</h2>
-                        <p class="">Ghana is well endowed with substantial mineral resources, the major ones being gold and diamonds. The country has seen strong economic growth recently due to it mineral resource exploitation, its GDP grew 8.5 percent in 2017. Aside from gold, the country also exports mineral resource such  as diamonds. Ghana’s annual gold revenues rose to $3.52 billion in 2017, a 10.2-percent increase from 2016. This is thought to be the result of greater output from the country’s mines, as per the Ghana Chamber of Mines Gold, the predominant mineral produced in the country, accounts for over 90% of all mineral revenues annually over the past two decades.
+                        <p class="">Sierra Leone is well endowed with substantial mineral resources, the major ones being gold and diamonds. The country has seen strong economic growth recently due to it mineral resource exploitation. Aside from gold, the country also exports mineral resource such as diamonds. Gold, the predominant mineral produced in the country, accounts for a significant portion of all mineral revenues annually over the past two decades.
                         </p>
-                        <p>M Enterprise Ghana Ltd Trade in Gold Purchasing and Supply and Can assist in the exploration of Gold.</p>
+                        <p>Explicit Mineral Hub Limited Trade in Gold Purchasing and Supply and Can assist in the exploration of Gold.</p>
                         <p>The trading procedure involves: Assaying, invoicing, pack listing, documentation for customs clearance and finally Airway bills with details of exporter, to the point of destination.</p>
-                        <p class="mb-0">There is absolutely no gold shipment under credit terms, the Bank of Ghana (BOG) regulations does not allow for shipment of gold before Payment.</p>
+                        <p class="mb-0">There is absolutely no gold shipment under credit terms, the Bank of Sierra Leone (BSL) regulations does not allow for shipment of gold before Payment.</p>
                     </div>
                     <div class="mb-5">
                         <h2 class="mb-2">NB:</h2>
                         <p class="">
-                            The requirement is stated on the BOG form ‘A’ it is a precondition for export please ask for details and do not pay money to anybody to allow shipment other than the prescribed regulation.
+                            The requirement is stated on the BSL form ‘A’ it is a precondition for export please ask for details and do not pay money to anybody to allow shipment other than the prescribed regulation.
                         </p>
                         <p>Note again that, Shipment of gold dust is not allowed, all gold must be smelted into ore bars to ascertain the purity for invoice value to be placed on customs clearance.</p>
-                        <p class="mb-0">The total cost for export is calculated at 0.5% of export value. MEG’s commission is applied in the total cost.</p>
+                        <p class="mb-0">The total cost for export is calculated at 0.5% of export value. Explicit Mineral Hub’s commission is applied in the total cost.</p>
                     </div>
                     <div class="mb-5">
                         <a href="#!" class="icon-link icon-link-hover text-info">
@@ -269,9 +270,10 @@
                     </figure>
                 </div>
                 <div class="col-lg-5 offset-lg-2 col-md-6 mb-4 mb-md-0">
+                    <span class="section-tag">Logistical Support</span>
+                    <h2 class="mb-3">Small Scale Mining Logistics</h2>
                     <div class="mb-4">
-                        <h2 class="mb-2">Small Scale Mining Logistics</h2>
-                        <p class="mb-0">M. Enterprise Ghana Ltd, supplies and distributes equipment’s to the small scale Artisanal Mining industry. Our range of equipment’s includes the entire prerequisite for small scale mining <br> We provide:</p>
+                        <p class="mb-0">Explicit Mineral Hub Limited, supplies and distributes equipment’s to the small scale Artisanal Mining industry. Our range of equipment’s includes the entire prerequisite for small scale mining <br> We provide:</p>
                     </div>
                     <div class="mb-4">
                         <ul class="list-unstyled mb-0">
@@ -311,7 +313,7 @@
                             Our equipment’s is well suited to miners producing 0.5 Tonnes per hour to 5 tonnes per hour. We offer free after sales service to our broad range of customers on the most efficient manner.
                         </p>
                     </div>
-                    <a href="#!" class="icon-link icon-link-hover text-warning">
+                    <a href="#!" class="icon-link icon-link-hover text-primary">
                         View Case Study
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                            <path

@@ -34,26 +34,26 @@
                 <div class="col-lg-6">
                     <a href="#permits" name="permits"></a>
                     <div class="mb-6 mb-lg-0">
-                        <small class="text-primary text-uppercase ls-md fw-bold" name="permits">Permits</small>
+                        <span class="section-tag">Global Permits</span>
 
                         <div class="my-4">
-                            <h2 class="mb-3">Permits.</h2>
-                            <p class="lead mb-0">M. Enterprise Ghana Limited is into joint-venture agreement with Neo Mining Limited, a Ghanaian registered private company.</p>
+                            <h2 class="mb-3">Strategic Concessions.</h2>
+                            <p class="lead mb-0">Explicit Mineral Hub Limited is into joint-venture agreement with Neo Mining Limited, a Sierra Leonean registered private company.</p>
                         </div>
 
                         <ul class="list-unstyled mb-0">
                             <li class="d-flex mb-2">
                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-success text-opacity-50" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-primary text-opacity-50" viewBox="0 0 16 16">
                                         <path
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
                                 </span>
-                                <span class="ms-2">Neo Mining Ltd holds 100% interest in two concessions in prime gold potential areas in Ghana. The Seniagya Pekyerekye and Duayaw Nkwanta Prospecting licenses located in Ashanti and Ahafo Regions of Ghana respectively.</span>
+                                <span class="ms-2">Neo Mining Ltd holds 100% interest in two concessions in prime gold potential areas in Sierra Leone. The Lunsar and Kono Prospecting licenses located in Northern and Eastern Provinces of Sierra Leone respectively.</span>
                            </li>
                            <li class="d-flex mb-2">
                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-success text-opacity-50" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-primary text-opacity-50" viewBox="0 0 16 16">
                                     <path
                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>
@@ -111,7 +111,7 @@
                             <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                  d="M12.5 7.97559H5C4.46957 7.97559 3.96086 8.1863 3.58579 8.56137C3.21071 8.93644 3 9.44515 3 9.97559V17.9756C3 18.506 3.21071 19.0147 3.58579 19.3898C3.96086 19.7649 4.46957 19.9756 5 19.9756H12.5V20.9756C12.5 22.0365 12.0786 23.0539 11.3284 23.804C10.5783 24.5542 9.56087 24.9756 8.5 24.9756C8.23478 24.9756 7.98043 25.0809 7.79289 25.2685C7.60536 25.456 7.5 25.7104 7.5 25.9756C7.5 26.2408 7.60536 26.4952 7.79289 26.6827C7.98043 26.8702 8.23478 26.9756 8.5 26.9756C10.0908 26.9739 11.616 26.3413 12.7408 25.2164C13.8657 24.0915 14.4983 22.5664 14.5 20.9756V9.97559C14.5 9.44515 14.2893 8.93644 13.9142 8.56137C13.5391 8.1863 13.0304 7.97559 12.5 7.97559ZM12.5 17.9756H5V9.97559H12.5V17.9756ZM27 7.97559H19.5C18.9696 7.97559 18.4609 8.1863 18.0858 8.56137C17.7107 8.93644 17.5 9.44515 17.5 9.97559V17.9756C17.5 18.506 17.7107 19.0147 18.0858 19.3898C18.4609 19.7649 18.9696 19.9756 19.5 19.9756H27V20.9756C27 22.0365 26.5786 23.0539 25.8284 23.804C25.0783 24.5542 24.0609 24.9756 23 24.9756C22.7348 24.9756 22.4804 25.0809 22.2929 25.2685C22.1054 25.456 22 25.7104 22 25.9756C22 26.2408 22.1054 26.4952 22.2929 26.6827C22.4804 26.8702 22.7348 26.9756 23 26.9756C24.5908 26.9739 26.116 26.3413 27.2408 25.2164C28.3657 24.0915 28.9983 22.5664 29 20.9756V9.97559C29 9.44515 28.7893 8.93644 28.4142 8.56137C28.0391 8.1863 27.5304 7.97559 27 7.97559ZM27 17.9756H19.5V9.97559H27V17.9756Z"
-                                 fill="#8B3DFF" />
+                                 fill="#198754" />
                             </svg>
                         </div>
                         <div>
@@ -149,17 +149,17 @@
                 <div class="col-lg-6">
                     <div class="mb-6 mb-lg-0">
                         <a href="#reclamation" name="reclamation"></a>
-                        <small class="text-primary text-uppercase ls-md fw-bold" name="reclamation">Reclamation</small>
+                        <span class="section-tag">Sustainability</span>
 
                         <div class="my-4">
-                            <h2 class="mb-3">Land Reclamation Project.</h2>
-                            <p class="lead mb-0">MEG Visions Reclamation of neglected mine sites as necessary for restoration of ecological integrity but must be based on sound ecological principles. <br>MEG Adopts the following procedures for reclamation:.</p>
+                            <h2 class="mb-3">Environmental Restoration.</h2>
+                            <p class="lead mb-0">Explicit Mineral Hub Visions Reclamation of neglected mine sites as necessary for restoration of ecological integrity but must be based on sound ecological principles. <br>Explicit Mineral Hub Adopts the following procedures for reclamation:.</p>
                         </div>
 
                         <ul class="list-unstyled mb-0">
                             <li class="d-flex mb-2">
                                 <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-success text-opacity-50" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill text-primary text-opacity-50" viewBox="0 0 16 16">
                                         <path
                                         d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
                                     </svg>

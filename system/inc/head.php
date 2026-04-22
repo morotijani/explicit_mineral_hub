@@ -5,32 +5,32 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <meta name="description" content="Empowering Global Ventures in Exploration, Mining, and Gold Trading with M. Enterprise Ghana Limited." />
-    <link rel="canonical" href="https://menterpriseghanalimited.com" />
+    <meta name="description" content="Empowering Global Ventures in Exploration, Mining, and Gold Trading with Explicit Mineral Hub Limited." />
+    <link rel="canonical" href="https://explicitmineralhublimited.com" />
     
     <!-- Primary author / publisher -->
-    <meta name="author" content="Menterprise LTD" />
+    <meta name="author" content="Explicit Mineral Hub Limited" />
     
     <!-- Open Graph (Facebook, LinkedIn, other link previews) -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Menterprise — Ghana Limited" />
-    <meta property="og:description" content="Empowering Global Ventures in Exploration, Mining, and Gold Trading with M. Enterprise Ghana Limited." />
-    <meta property="og:url" content="https://menterpriseghanalimited.com/" />
-    <meta property="og:site_name" content="Menterprise" />
+    <meta property="og:title" content="Explicit Mineral Hub — Sierra Leone Limited" />
+    <meta property="og:description" content="Empowering Global Ventures in Exploration, Mining, and Gold Trading with Explicit Mineral Hub Limited." />
+    <meta property="og:url" content="https://explicitmineralhublimited.com/" />
+    <meta property="og:site_name" content="Explicit Mineral Hub" />
     
      <!-- Replace with your high-quality preview image (>=1200x630) -->
-    <meta property="og:image" content="https://menterpriseghanalimited.com/assets/media/logo/logo.png" />
+    <meta property="og:image" content="https://explicitmineralhublimited.com/assets/media/logo/logo.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Menterprise" />
-    <meta name="twitter:creator" content="@Menterprise" />
-    <meta name="twitter:title" content="Menterprise — Ghana Limited" />
-    <meta name="twitter:description" content="Empowering Global Ventures in Exploration, Mining, and Gold Trading with M. Enterprise Ghana Limited." />
-    <meta name="twitter:image" content="https://menterpriseghanalimited.com/assets/media/logo/logo.png" />
+    <meta name="twitter:site" content="@ExplicitMineralHub" />
+    <meta name="twitter:creator" content="@ExplicitMineralHub" />
+    <meta name="twitter:title" content="Explicit Mineral Hub — Sierra Leone Limited" />
+    <meta name="twitter:description" content="Empowering Global Ventures in Exploration, Mining, and Gold Trading with Explicit Mineral Hub Limited." />
+    <meta name="twitter:image" content="https://explicitmineralhublimited.com/assets/media/logo/logo.png" />
     
     <!-- Theme color for mobile browsers -->
     <meta name="theme-color" content="#0b3d91" />
@@ -44,35 +44,35 @@
             "@graph": [
                 {
                     "@type": "Organization",
-                    "@id": "https://menterpriseghanalimited.com#org",
-                    "name": "Menterprise LTD",
-                    "url": "https://menterpriseghanalimited.com",
-                    "logo": "https://menterpriseghanalimited.com/assets/media/logo/logo.png",
+                    "@id": "https://explicitmineralhublimited.com#org",
+                    "name": "Explicit Mineral Hub Limited",
+                    "url": "https://explicitmineralhublimited.com",
+                    "logo": "https://explicitmineralhublimited.com/assets/media/logo/logo.png",
                     "sameAs": [
-                        "https://twitter.com/Menterprise",
-                        "https://www.linkedin.com/company/menterprise-ghana-limited",
-                        "https://www.facebook.com/MenterpriseGhanaLimited"
+                        "https://twitter.com/ExplicitMineralHub",
+                        "https://www.linkedin.com/company/explicit-mineral-hub-limited",
+                        "https://www.facebook.com/ExplicitMineralHubLimited"
                     ]
                 },
                 {
                     "@type": "WebSite",
-                    "url": "https://menterpriseghanalimited.com",
-                    "name": "Menterprise LTD",
+                    "url": "https://explicitmineralhublimited.com",
+                    "name": "Explicit Mineral Hub Limited",
                     "publisher": {
-                        "@id": "https://menterpriseghanalimited.com#org"
+                        "@id": "https://menterprisesierraleonelimited.com#org"
                     }
                 },
                 {
                     "@type": "SoftwareApplication",
-                    "name": "Menterprise LTD",
-                    "url": "https://menterpriseghanalimited.com/",
+                    "name": "Explicit Mineral Hub Limited",
+                    "url": "https://explicitmineralhublimited.com/",
                     "applicationCategory": "CryptocurrencyExchange",
                     "operatingSystem": "WEB",
                     "author": {
-                        "@id": "https://menterpriseghanalimited.com#org"
+                        "@id": "https://menterprisesierraleonelimited.com#org"
                     },
-                    "description": "Empowering Global Ventures in Exploration, Mining, and Gold Trading with M. Enterprise Ghana Limited.",
-                    "image": "https://menterpriseghanalimited.com/assets/media/logo/logo.png"
+                    "description": "Empowering Global Ventures in Exploration, Mining, and Gold Trading with Explicit Mineral Hub Limited.",
+                    "image": "https://explicitmineralhublimited.com/assets/media/logo/logo.png"
                  }
             ]
         }
@@ -80,7 +80,7 @@
     
     <!-- Optional: small inline JSON used by client (not required for social preview) -->
     <script id="menterprise-client-config" type="application/json">
-        {"site":"Menterprise LTD","url":"https://menterpriseghanalimited.com","developer":"Menterprise LTD"}
+        {"site":"Explicit Mineral Hub Limited","url":"https://explicitmineralhublimited.com","developer":"Explicit Mineral Hub Limited"}
     </script>
 
     <link rel="stylesheet" href="<?= PROOT; ?>assets/css/swiper-bundle.min.css" />
@@ -100,16 +100,21 @@
     <script src="<?= PROOT; ?>assets/js/color-modes.js"></script>
 
     <!-- Libs CSS -->
-    <link href="<?= PROOT; ?>assets/css/simplebar.min.css" rel="stylesheet" />
-    <link href="<?= PROOT; ?>assets/css/bootstrap-icons.min.css" rel="stylesheet" />
-    <!-- Scroll Cue -->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/simplebar.min.css" />
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="<?= PROOT; ?>assets/css/scrollCue.css" />
-
-    <!-- Box icons -->
-    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/boxicons.min.css" />
-
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/theme.min.css">
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/theme.min.css" />
+    <!-- Custom Premium CSS -->
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/index.css" />
 
     <title><?= $title . $appName; ?></title>
 </head>
