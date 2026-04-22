@@ -1,0 +1,99 @@
+<?php 
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+
+    require dirname(__DIR__)  . '/bootstrap.php';
+	
+    $driver = $_ENV['DB_DRIVER'];
+    $hostname = $_ENV['DB_HOST'];
+    $port = $_ENV['DB_PORT'];
+    $database = $_ENV['DB_DATABASE'];
+    $username = $_ENV['DB_USERNAME'];
+    $password = $_ENV['DB_PASSWORD'];
+
+    try {
+        $string = $driver . ":host=" . $hostname . ";charset=utf8mb4;dbname=" . $database;
+        $dbConnection = new \PDO(
+            $string, $username, $password
+        );
+    } catch (\PDOException $e) {
+        exit($e->getMessage());
+    }
+    // ensure session is started
+    if (session_status() !== PHP_SESSION_ACTIVE) {
+        session_start();
+    }
+
+    if (isset($_SESSION['PRSADMIN'])) {
+ 		$admin_id = $_SESSION['PRSADMIN'];
+
+ 		$sql = "
+ 			SELECT * FROM susu_admins 
+ 			WHERE susu_admins.admin_id = ? 
+ 			LIMIT 1
+ 		";
+ 		$statement = $dbConnection->prepare($sql);
+ 		$statement->execute([$admin_id]);
+ 		$admin_dt = $statement->fetchAll();
+		if ($statement->rowCount() > 0) {
+			$admin_data = $admin_dt[0];
+
+			$fn = explode(' ', $admin_data['admin_name']);
+			$admin_data['first'] = ucwords($fn[0]);
+			$admin_data['middle'] = '';
+			if (count($fn) > 2) {
+				$admin_data['middle'] = ucwords($fn[1]);
+				$admin_data['first'] = $admin_data['first'] . ' ' . $admin_data['middle'];
+			}
+			$admin_data['last'] = '';
+			if (count($fn) > 1) {
+				$admin_data['last'] = ucwords($fn[1]);
+			}
+			$admin_permission = $admin_data['admin_permissions']; // get admin's permission
+            
+		} else {
+			redirect(PROOT . 'auth/sign-out');
+		}
+		
+	}
+
+    require_once ("Functions.php");
+    require_once ("helpers.php");
+    require_once dirname(__DIR__) . "/config.php";
+    $appLogo = 'assets/media/logo/logo.png';
+    $appName = 'Menterprice LTD';
+
+    if (!is_dir(__DIR__ . '/cache')) mkdir(__DIR__ . '/cache', 0755, true);
+	if (!is_dir(__DIR__ . '/logs')) mkdir(__DIR__ . '/logs', 0755, true);
+
+    // Display on Messages on Errors And Success for users
+ 	$flash_message = '';
+ 	if (isset($_SESSION['flash_success'])) {
+ 	 	$flash_message = '
+			<div aria-live="polite" aria-atomic="true" class="position-fixed top-0 start-50 translate-middle-x rounded-3" style="z-index: 9999;">
+				<div class="p-3">
+					<div class="toast show text-bg-success border-0" id="temporary">
+                        <div class="toast-body">
+                            ' . $_SESSION['flash_success'] . '
+                        </div>
+					</div>
+				</div>
+			</div>
+		';
+ 	 	unset($_SESSION['flash_success']);
+ 	}
+
+ 	if (isset($_SESSION['flash_error'])) {
+ 	 	$flash_message = '
+            <div aria-live="polite" aria-atomic="true" class="position-fixed top-0 start-50 translate-middle-x rounded-3" style="z-index: 9999;">
+                <div class="p-3">
+                    <div class="toast show text-bg-danger border-0" id="temporary">
+                        <div class="toast-body">
+                            ' . $_SESSION['flash_error'] . '
+                        </div>
+                    </div>
+                </div>
+            </div>
+        ';
+ 	 	unset($_SESSION['flash_error']);
+ 	}
