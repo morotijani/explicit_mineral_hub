@@ -9,36 +9,32 @@
     
 ?>
 
-   <!--Hero start-->
-    <section class="position-relative py-10 overflow-hidden">
-       <div class="hero-overlay"></div>
-       <img src="<?= PROOT; ?>assets/media/bg-1.jpg" class="position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 0" alt="Hero Background" />
-        <div class="container position-relative py-lg-10" data-cue="fadeIn">
-            <div class="row py-lg-10 justify-content-center text-center">
-                <div class="col-lg-9 col-12">
-                    <div class="d-flex flex-column gap-6">
-                        <div class="d-flex flex-column gap-4">
-                            <h1 class="text-white-stable display-4 mb-0">Embarking On A Journey Of Mining Mastery</h1>
-                            <p class="mb-0 text-white-50 lead px-lg-10">
-                               Empowering Global Ventures in Exploration, Mining, and Gold Trading with Explicit Mineral Hub Limited
-                            </p>
-                        </div>
-                        <div class="d-md-flex d-grid align-items-center justify-content-md-center gap-4">
-                           <a href="<?= PROOT; ?>about" class="btn btn-gold px-5">Explore Our Legacy</a>
-                           <a href="<?= PROOT; ?>projects" class="link-white icon-link icon-link-hover card-grid-link d-flex justify-content-center">
-                                Recent Projects
-
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path
-                                    fill-rule="evenodd"
-                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                              </svg>
-                           </a>
+    <!--Hero start-->
+    <section class="position-relative hero-premium overflow-hidden">
+        <div class="hero-overlay"></div>
+        <img src="<?= PROOT; ?>assets/media/bg-1.jpg" class="position-absolute top-0 start-0 w-100 h-100" style="object-fit: cover; z-index: 0" alt="Hero Background" />
+        
+        <div class="container position-relative z-2">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-10 col-xl-8" data-cue="zoomIn">
+                    <div class="hero-glass-card">
+                        <span class="section-tag mb-4">Sierra Leone's Gold Standard</span>
+                        <h1 class="text-white hero-title">Mastering the Art of <span class="text-gradient-gold text-glow">Mineral Excellence</span></h1>
+                        <p class="hero-subtitle">Empowering global ventures with elite consultancy in exploration, mining, and ethical gold trading across the Sierra Leonean frontier.</p>
+                        
+                        <div class="d-flex flex-wrap justify-content-center gap-3">
+                            <a href="<?= PROOT; ?>about" class="btn btn-gold btn-lg px-5 py-3">Our Legacy</a>
+                            <a href="<?= PROOT; ?>contact" class="btn btn-outline-light btn-lg px-5 py-3">Inquire Hub</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <a href="#services" class="scroll-indicator d-none d-lg-flex text-decoration-none">
+            <span class="small text-uppercase letter-spacing-1">Discover More</span>
+            <div class="mouse"></div>
+        </a>
     </section>
     <!--Hero end-->
 
@@ -236,46 +232,48 @@
         
         <!--Who we are start-->
         <br><br>
-        <section class="my-xl-9 my-5">
-            <div class="container">
-               <div class="row g-4">
-                    <div class="col-xl-5 col-lg-6 col-12" data-cue="slideInLeft">
-                        <div class="mb-4">
-                            <span class="section-tag">A Legacy Redefined</span>
-                            <h2 class="h1 mt-4 mb-3">Established November 2025: Leading Sierra Leone's Mineral Frontier.</h2>
-                            <p class="mb-3">We provide expert consultancy in exploration, mining as well as Gold trading within Sierra Leone and beyond</p>
-                            <p class="mb-0">We have established ourselves strategically to assist mining groups around the globe with practical skill to improve the mining industry.</p>
+        <section class="py-xl-9 py-5 overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6" data-cue="slideInLeft">
+                    <div class="pe-lg-5">
+                        <span class="section-tag">A Legacy Redefined</span>
+                        <h2 class="h1 mt-4 mb-4">Leading Sierra Leone's Mineral Frontier.</h2>
+                        
+                        <div class="mission-box">
+                            <p>"To provide expert consultancy and strategic assistance to the global mining industry with integrity and excellence."</p>
+                        </div>
+                        
+                        <p class="mb-4">We are a registered Sierra Leonean company established in November 2025 under the Companies Act of Sierra Leone. Our expertise spans mineral exploration, technical mining services, and ethical Gold trading.</p>
+                        
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-value">100%</span>
+                                <span class="stat-label">Compliant</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">Elite</span>
+                                <span class="stat-label">Experts</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">Global</span>
+                                <span class="stat-label">Network</span>
+                            </div>
                         </div>
 
-                        <a href="./about.html" class="icon-link icon-link-hover">
-                            More about us
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path
-                                fill-rule="evenodd"
-                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                            </svg>
-                        </a>
+                        <div class="mt-5">
+                            <a href="<?= PROOT; ?>about" class="btn btn-gold px-5">Learn More About Us</a>
+                        </div>
                     </div>
-                    <div class="col-xl-6 offset-xl-1 col-lg-6 col-12">
-                        <div class="row g-4" data-cues="slideInUp" data-delay="1000">
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <a href="#!">
-                                    <div
-                                        class="rounded-3 card-lift"
-                                        style="background-image: url(<?= PROOT; ?>assets/media/back-2.jpeg); background-repeat: no-repeat; height: 386px; background-size: cover"></div>
-                                </a>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <a href="#!">
-                                    <div
-                                        class="mb-4 rounded-3 card-lift"
-                                        style="background-image: url(<?= PROOT; ?>assets/media/back-1.jpeg); background-repeat: no-repeat; height: 180px; background-size: cover"></div>
-                                </a>
-                            <a href="#!">
-                                <div
-                                    class="mb-2 rounded-3 card-lift"
-                                    style="background-image: url(<?= PROOT; ?>assets/media/back-3.jpg); background-repeat: no-repeat; height: 180px; background-size: cover"></div>
-                            </a>
+                </div>
+                <div class="col-lg-6" data-cue="slideInRight">
+                    <div class="image-collage">
+                        <div class="since-badge">Est. 2025</div>
+                        <div class="collage-img collage-img-1">
+                            <img src="<?= PROOT; ?>assets/media/back-2.jpeg" class="w-100 h-100" style="object-fit: cover;" alt="">
+                        </div>
+                        <div class="collage-img collage-img-2">
+                            <img src="<?= PROOT; ?>assets/media/back-1.jpeg" class="w-100 h-100" style="object-fit: cover;" alt="">
                         </div>
                     </div>
                 </div>
@@ -283,5 +281,117 @@
         </div>
     </section>
     <!--Who we are end-->
+
+    <!--Expert team start-->
+    <section class="py-xl-9 py-5 bg-navy text-white" style="background: var(--emh-navy);">
+        <div class="container" data-cue="fadeIn">
+            <div class="row g-4">
+                <div class="col-md-4" data-cue="zoomIn">
+                    <div class="text-center p-4 h-100">
+                        <div class="mb-4 text-gold" style="font-size: 2.5rem;">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h4 class="text-white">Elite Technical Team</h4>
+                        <p class="text-white-50">Our Sierra Leonean team brings decades of local and international expertise in mineralogy and engineering.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-cue="zoomIn">
+                    <div class="text-center p-4 h-100">
+                        <div class="mb-4 text-gold" style="font-size: 2.5rem;">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h4 class="text-white">Fully Licensed Hub</h4>
+                        <p class="text-white-50">Operational integrity backed by full compliance with the National Minerals Agency (NMA) of Sierra Leone.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-cue="zoomIn">
+                    <div class="text-center p-4 h-100">
+                        <div class="mb-4 text-gold" style="font-size: 2.5rem;">
+                            <i class="bi bi-gem"></i>
+                        </div>
+                        <h4 class="text-white">Gold Standard Ethics</h4>
+                        <p class="text-white-50">We adhere strictly to ethical sourcing and transparent trading practices in every transaction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Expert team end-->
+
+    <!--Customer stories start-->
+    <section class="py-xl-9 py-5 bg-light">
+        <div class="container" data-cue="fadeIn">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="text-center mb-xl-7 mb-5">
+                        <span class="section-tag">Testimonials</span>
+                        <h2 class="mb-3">The Hub of Trust</h2>
+                        <p class="mb-0">Hear from our global partners and satisfied clients.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm glass-card" data-cue="slideInLeft">
+                        <div class="card-body p-5">
+                            <div class="mb-4 text-gold">
+                                <i class="bi bi-quote" style="font-size: 2rem;"></i>
+                            </div>
+                            <p class="mb-5 lead fs-6">
+                                “As a mining engineer, I had a fantastic experience working with Explicit Mineral Hub Limited. Their team of experts provided exceptional consultancy services, guiding us with their extensive knowledge.”
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="<?= PROOT; ?>assets/media/avatar.png" alt="Avatar" class="avatar avatar-md rounded-circle" />
+                                <div class="ms-3">
+                                    <h6 class="mb-0">John D.</h6>
+                                    <span class="small text-muted">Mining Engineer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm glass-card" data-cue="slideInUp">
+                        <div class="card-body p-5">
+                            <div class="mb-4 text-gold">
+                                <i class="bi bi-quote" style="font-size: 2rem;"></i>
+                            </div>
+                            <p class="mb-5 lead fs-6">
+                                "As a geologist, I can confidently say that Explicit Mineral Hub has been instrumental in our gold exploration. Their consultancy services are invaluable for navigating the Sierra Leonean industry."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="<?= PROOT; ?>assets/media/avatar.png" alt="Avatar" class="avatar avatar-md rounded-circle" />
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Mark R.</h6>
+                                    <span class="small text-muted">Geologist</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm glass-card" data-cue="slideInRight">
+                        <div class="card-body p-5">
+                            <div class="mb-4 text-gold">
+                                <i class="bi bi-quote" style="font-size: 2rem;"></i>
+                            </div>
+                            <p class="mb-5 lead fs-6">
+                                "Explicit Mineral Hub stands out as a trusted partner in gold trading. Their expertise and network facilitated smooth transactions, allowing us to expand our business rapidly."
+                            </p>
+                            <div class="d-flex align-items-center">
+                                <img src="<?= PROOT; ?>assets/media/avatar.png" alt="Avatar" class="avatar avatar-md rounded-circle" />
+                                <div class="ms-3">
+                                    <h6 class="mb-0">Emma T.</h6>
+                                    <span class="small text-muted">Gold Trader</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Customer stories end-->
+
 
 <?php include  __DIR__ . '/system/inc/footer.php'; ?>
