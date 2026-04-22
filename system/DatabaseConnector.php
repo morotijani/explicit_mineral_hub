@@ -61,7 +61,7 @@
     require_once ("helpers.php");
     require_once dirname(__DIR__) . "/config.php";
     $appLogo = 'assets/media/logo/logo.png';
-    $appName = 'Menterprice LTD';
+    $appName = 'Explicit Mineral Hub LTD';
 
     if (!is_dir(__DIR__ . '/cache')) mkdir(__DIR__ . '/cache', 0755, true);
 	if (!is_dir(__DIR__ . '/logs')) mkdir(__DIR__ . '/logs', 0755, true);

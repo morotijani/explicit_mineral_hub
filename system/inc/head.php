@@ -51,7 +51,7 @@
                     "sameAs": [
                         "https://twitter.com/ExplicitMineralHub",
                         "https://www.linkedin.com/company/explicit-mineral-hub-limited",
-                        "https://www.facebook.com/ExplicitMineralHubLimited"
+                        "https://www.facebook.com/explicitmineralhublimited"
                     ]
                 },
                 {
