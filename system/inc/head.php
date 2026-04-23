@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
    <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -96,8 +96,8 @@
     <meta name="msapplication-TileColor" content="#8b3dff" />
     <meta name="msapplication-config" content="<?= PROOT; ?>assets/media/logo/tile.xml" />
 
-    <!-- Color modes -->
-    <script src="<?= PROOT; ?>assets/js/color-modes.js"></script>
+    <!-- Color modes (Disabled to force light theme) -->
+    <!-- <script src="<?= PROOT; ?>assets/js/color-modes.js"></script> -->
 
     <!-- Libs CSS -->
     <!-- Fonts -->
